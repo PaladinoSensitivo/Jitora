@@ -31,7 +31,7 @@ public class Move : MonoBehaviour
 
     void Update()
     {
-        float xInput = Input.GetAxisRaw("Horizontal");
+        float xInput = Input.GetAxis("Horizontal");
         
         xVelocity = xspeed * xInput * Vector2.right; // (1, 0)
 
